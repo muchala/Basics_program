@@ -1,0 +1,11 @@
+function doesArrayContainNegative(array){
+
+  for(var arr of array){
+  	if(arr < 0) return true;
+  }
+  
+  return false;
+}
+
+var array1 = [9, -3, -5, 8]
+console.log(doesArrayContainNegative(array1))
