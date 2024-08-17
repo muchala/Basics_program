@@ -1,0 +1,6 @@
+function containsUppercase(str) {
+  return /[A-Z]/.test(str);
+}
+console.log(containsUppercase("Keerthi")); 
+console.log(containsUppercase("deepa")); 
+console.log(containsUppercase("VANI"));
